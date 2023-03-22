@@ -6,6 +6,9 @@ from classes.order import Order
 from classes.coffee import Coffee
 
 if __name__ == '__main__':
-    print("HELLO! :) let's debug")
-
-    ipdb.set_trace()
+    # print("HELLO! :) let's debug")
+    c1 = Customer('Steve')
+    # c2 = Customer('')
+    # c1.name = True
+    c1.name = "a"*26
+    # ipdb.set_trace()
